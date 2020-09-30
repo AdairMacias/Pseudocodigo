@@ -56,8 +56,6 @@
 - ec = Elementos de la cadena
 
 *Salida:*
-1. Comparar el número de elementos de la subcadena (esc) con el número de elementos de la cadena (ec) antes de que existan un espacio entre elementos.
-2. Si el número de esc > número de ec entonces hay que saltar al siguiente conjunto de elementos de la cadena (ec) y repetir el paso anterior.
-2. Si el número de esc = número de ec entonces compruebo si la subcadena tiene los mismos elementos que los de la cadena sino, salto al siguiente conjunto de elementos. 
-3. Si el número de esc > número de ec entonces compruebo si la subcadena tiene los mismos elementos que los de la cadena, si se cumple esta condición, la subcadena está dentro      de la cadena; en caso contrario, aumento un lugar y compruebo lo mismo. Repito este paso cada vez hasta que me encuentre con un espacio entre elementos.
-4. Si llego al final de los ec y no obtengo que los esc =  ec repito el ciclo.
+1. Comparar los elementos de la subcadena con los elementos de la cadena.
+2. Si los elementos de la subcadena no se encuentran al comienzo, recorrer un elemento de la cadena y repetir el paso anterior.
+3. Detenerse hasta que los elementos de la subcadena estén en la cadena o, en su defecto, llegar al final de la cadena.
